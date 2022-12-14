@@ -72,6 +72,9 @@ namespace BookStore_Backend
             services.AddTransient<IAdminRL, AdminRL>();
             services.AddTransient<IAdminBL, AdminBL>();
 
+            services.AddTransient<IBookBL, BookBL>();
+            services.AddTransient<IBookRL, BookRL>();
+
             services.AddAuthentication(option =>
             {
                 option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
