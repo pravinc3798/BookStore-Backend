@@ -81,6 +81,9 @@ namespace BookStore_Backend
             services.AddTransient<IWishlistBL, WishlistBL>();
             services.AddTransient<IWishlistRL, WishlistRL>();
 
+            services.AddTransient<IAddressBL, AddressBL>();
+            services.AddTransient<IAddressRL, AddressRL>();
+
             services.AddAuthentication(option =>
             {
                 option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
