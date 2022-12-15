@@ -163,7 +163,7 @@ namespace RepositoryLayer.Service
 
         }
 
-        private static readonly string mask = "safhajkfh28934iowqrf@#42@#$";
+        private static readonly string mask = "sa@#42@#$";
         private static string Encrypt(string pass)
         {
             if (pass == null) return "";

@@ -97,7 +97,7 @@ namespace RepositoryLayer.Services
 
         }
 
-        private static readonly string mask = "saiowqrf@#42@#$";
+        private static readonly string mask = "sa@#42@#$";
         private static string Encrypt(string pass)
         {
             if (pass == null) return "";
